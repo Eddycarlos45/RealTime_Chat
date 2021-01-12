@@ -1,0 +1,28 @@
+{
+  "name": "realtime_chat",
+  "version": "1.0.0",
+  "description": "RealTime Chat with rooms",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eddycarlos45/RealTime_Chat.git"
+  },
+  "author": "Edson Sousa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eddycarlos45/RealTime_Chat/issues"
+  },
+  "homepage": "https://github.com/Eddycarlos45/RealTime_Chat#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "socket.io": "^3.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
